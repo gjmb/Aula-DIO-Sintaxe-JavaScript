@@ -4,7 +4,7 @@ function calc(string) {
     let result;
 
     function soma() {
-         const v1 = prompt("Informe o primeiro número: ");
+        const v1 = prompt("Informe o primeiro número: ");
         if (v1 == null)
             return alert("Operação cancelada.");
         else if (isNaN(Number(v1))) 
@@ -144,11 +144,9 @@ function calc(string) {
             divisao();
             break;
 
-
         case '5':
             resto();
             break;
-
 
         case '6':
             potenciacao();
