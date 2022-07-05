@@ -1,0 +1,57 @@
+- Manipulando a D.O.M. com JavaScript
+
+  -DOM - Document Object Model
+
+    Padrão de como acessar e modificar os elementos HTML de uma página
+
+  -BOM - Browser Object Model
+
+    Tudo que está dentro do objeto window
+
+  -Métodos
+
+    tag, id, classe
+
+    Selecionar
+
+    document.getElementById()
+    document.getElementsByTagName()
+    document.getElementsClassName()
+    document.querySelectorAll()
+
+    Add e del
+
+    document.createElement()
+    document.RemoveChild()
+    document.appendChild()
+    document.replaceChild()
+
+  -Trabalhando com estilos
+
+    const element = document.getElementById()
+
+    Classes
+
+      element.classList.
+
+    CSS
+
+      document.getElementsByTagName("p").style.color = "blue";
+
+    Eventos
+
+        Eventos de mouse
+
+          mouseover, mouseout
+
+        Eventos de clique
+
+          click, dbclick
+
+        Eventos de atualização
+
+          change, load
+
+        Add Eventos
+
+          document.getElementsByName('subtrair')[0].addEventListener('click', function ());

@@ -8,3 +8,5 @@ console.log(mostraHobby('Nino', 'correr e pegar bolinhas'));
 
 
 
+console.log(typeof(zero));
+
